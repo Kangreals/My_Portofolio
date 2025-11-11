@@ -1,0 +1,104 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Portofolio</title>
+    <link rel="stylesheet" href="style.css">
+    <script src="script.js"></script>
+</head>
+
+<body>
+    <!-- Navbar -->
+    <header>
+        <nav>
+            <h1 class="logo">Nama</h1>
+            <ul>
+                <li><a href="#home">Home</a></li>
+                <li><a href="#about">About</a></li>
+                <li><a href="#skill">Skills</a></li>
+                <li><a href="#project">Project</a></li>
+                <li><a href="#contact">Contact</a></li>
+            </ul>
+        </nav>
+    </header>
+
+    <!-- Hero Section -->
+    <section id="home" class="hero reveal">
+        <div class="hero-content">
+            <h2>Hi, I'm <span>Nama</span></h2>
+            <p>Web Developer || Freelancer</p>
+            <a href="#contact" class="btn">Hire Me</a>
+        </div>
+    </section>
+
+    <!-- About Section -->
+    <section id="about" class="about reveal">
+        <h2>About me</h2>
+        <p>Saya adalah Webn Developer yang berfokus pada bagian frontend. Dan saya juga belajar sedikit sedikit tentang
+            backend</p>
+    </section>
+
+    <!-- Skill Section -->
+    <section id="skills" class="skills reveal">
+        <h2>Skills</h2>
+        <div class="skill-bars">
+            <div class="skill">
+                <p>HTML</p>
+                <div class="bar"><span data-width="75%"></span></div>
+            </div>
+            <div class="skill">
+                <p>CSS</p>
+                <div class="bar"><span data-width="70%"></span></div>
+            </div>
+            <div class="skill">
+                <p>JavaScript</p>
+                <div class="bar"><span data-width="40%"></span></div>
+            </div>
+            <div class="skill">
+                <p>Python</p>
+                <div class="bar"><span data-width="53%"></span></div>
+            </div>
+            <div class="skill">
+                <p>C++</p>
+                <div class="bar"><span data-width="27%"></span></div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Project Section -->
+    <section id="project" class="project reveal">
+        <h2>My Project</h2>
+        <div class="project-list">
+            <div class="project-card">
+                <h3>Kalkulator</h3>
+                <p>Membuat sistem perhitungan menggunakan <b>HTML</b>, <b>CSS</b>, <b>JavaScript</b>.</p>
+                <a href="https://github.com/Kangreals/UKK_Syahrial">Lihat</a>
+            </div>
+            <div class="project-card">
+                <h3>TodoList</h3>
+                <p>Sebuah web berisi tentang list kegiatan/aktivitas, dan aktivitas yang dimasukan bisa dichecklist atau
+                    dihapus.</p>
+                <a href="https://github.com/Kangreals/Todolist_2">Lihat</a>
+            </div>
+        </div>
+    </section>
+
+    <!-- Contact Section -->
+    <section id="contact" class="contact reveal">
+        <h2>Contact</h2>
+        <form>
+            <input type="text" placeholder="Name" required>
+            <input type="email" placeholder="Email" required>
+            <textarea placeholder="Message..." required></textarea>
+            <button type="submit">Send</button>
+        </form>
+    </section>
+
+    <footer>
+        <p>&copy; 2025 KangReal | All Right Reserved</p>
+    </footer>
+</body>
+
+</html>
